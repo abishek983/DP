@@ -52,7 +52,7 @@ int main(){
     int queries; cin >> queries;
     while(queries--){
         int a,b; cin >> a >> b;
-        cout << "value from bootm up approach is:" << dp[a][b] << endl;
+        cout << "value from bottom up approach is:" << dp[a][b] << endl;
         cout << "value from top down approach is:" << save[a][b] << endl;
     }
 
